@@ -44,3 +44,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# ChartIQ Library Files
+/src/vendor/chartiq/css
+/src/vendor/chartiq/examples
+/src/vendor/chartiq/js
