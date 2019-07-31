@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-cli-chart-starter';
+  activeChart: string;
+
+  constructor() {
+    this.activeChart = "helloworld";
+  }
+
+  SetActive(chartName){
+    this.activeChart = chartName || "helloworld"; // Default to helloworld chart
+  }
 }

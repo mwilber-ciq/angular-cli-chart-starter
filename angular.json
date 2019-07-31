@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "src/vendor/chartiq/css/stx-chart.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/vendor/chartiq/js/chartiq.js",
+              "src/vendor/chartiq/examples/feeds/quoteFeedSimulator.js"
+            ]
           },
           "configurations": {
             "production": {

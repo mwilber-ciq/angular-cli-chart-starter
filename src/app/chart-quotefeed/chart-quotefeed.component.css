@@ -1,0 +1,7 @@
+.chartContainer{
+  width:800px;
+  height:460px;
+  position:relative;
+  margin: auto;
+  border: solid 1px #ccc;
+}

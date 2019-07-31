@@ -1,0 +1,45 @@
+nav{
+  width: 100%;
+  margin-bottom: 50px;
+  height: 80px;
+
+  background-color: #131d24;
+  border-bottom: 1px solid #4a6877;
+}
+
+nav .navbar-brand{
+  float: left;
+  margin: 20px 50px;
+}
+
+nav .navbar-brand .brand-logo{
+  height: 40px;
+}
+
+nav ul{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  height: 60px;
+  margin:0;
+  padding: 10px 20px;
+  float:left;
+  list-style: none;
+  line-height: 60px;
+  background-color: #131d24;
+  color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+nav li.active{
+  color: #eee;
+  background-color: #208ee2;
+}
+
+.app-container{
+  clear: left;
+}
